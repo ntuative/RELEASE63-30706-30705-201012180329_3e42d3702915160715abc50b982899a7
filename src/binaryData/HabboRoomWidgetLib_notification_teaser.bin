@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="teaser_general" width="433" height="260" version="0.1" uid="8CBE36F2-7092-5538-00D2-AC6CF7B2624D">
+  <window>
+    <frame x="0" y="0" width="433" height="260" params="32769" style="1" name="widget_teaser_frame" caption="%24%7Bwidget.furni.teaser.title%7D" color="0x4c4c4c" tags="room_widget_teaser" width_min="433" width_max="433" height_min="260">
+      <children>
+        <border x="0" y="0" width="421" height="228" params="16" style="0" color="0x4c4c4c" blend="0">
+          <children>
+            <border x="0" y="0" width="420" height="160" params="16" style="0" name="white_border"/>
+            <text x="130" y="12" width="247" height="21" params="16" style="0" name="congrats" caption="%24%7Bwidget.furni.teaser.congrats%7D" color="0x666666">
+              <variables>
+                <var key="font_face" value="Verdana" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0x666666" type="hex"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="130" y="32" width="283" height="120" params="16" style="0" name="description" caption="%24%7Bwidget.furni.teaser.description%7D" color="0x888888">
+              <variables>
+                <var key="font_face" value="Verdana" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0x888888" type="hex"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container_button x="56" y="173" width="306" height="46" params="17" style="1" name="teaser_ok_btn" caption="OK%21" width_min="306" width_max="306" height_min="46" height_max="46">
+              <children>
+                <border x="3" y="3" width="300" height="40" params="16" style="3" name="ok_btn_bg1" caption="OK%21" color="0x6d00"/>
+                <border x="6" y="6" width="294" height="17" params="16" style="3" caption="OK%21" color="0x309d00"/>
+                <text x="5" y="9" width="295" height="30" params="3932176" style="0" name="ok" caption="%24%7Bwidget.furni.teaser.get%7D">
+                  <variables>
+                    <var key="font_face" value="Verdana" type="String"/>
+                    <var key="font_size" value="18" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="auto_size" value="center" type="String"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container_button>
+            <bitmap x="1" y="0" width="418" height="160" params="1048592" style="0" name="xmas10_dialog_bg"/>
+            <bitmap x="20" y="15" width="90" height="90" params="16" style="0" name="deco_img" width_min="90" width_max="90" height_min="90" height_max="90"/>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

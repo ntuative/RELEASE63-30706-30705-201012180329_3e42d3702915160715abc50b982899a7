@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="pet_commands" width="20" height="20" version="0.0">
+  <window>
+    <frame x="27" y="30" width="195" height="362" params="32769" style="1" caption="%24%7Bwidgets.pet.commands.title%7D" tags="pet_commands">
+      <children>
+        <border x="0" y="0" width="177" height="323" params="16" style="1" caption="%24%7Bwidgets.pet.commands.title%7D" blend="0">
+          <children>
+            <container x="9" y="3" width="65" height="44" params="17" style="0" name="image_container" caption="%24%7Bwidgets.pet.commands.title%7D">
+              <children>
+                <bitmap x="1" y="0" width="63" height="42" params="17" style="0" name="avatar_image" caption="%24%7Bwidgets.pet.commands.title%7D"/>
+              </children>
+            </container>
+            <text x="76" y="15" width="93" height="22" params="16" style="0" name="pet_name" caption="%24%7Bwidgets.pet.commands.title%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="5" y="53" width="170" height="279" params="16" style="1" caption="%24%7Bwidgets.pet.commands.title%7D">
+              <children>
+                <button x="0" y="0" width="170" height="22" params="131089" style="1" name="btn_cmd_0" caption="%24%7Bpet.command.0%7D" width_min="170" width_max="170"/>
+                <button x="0" y="25" width="84" height="22" params="131089" style="1" name="btn_cmd_1" caption="%24%7Bpet.command.1%7D" width_min="84" width_max="84"/>
+                <button x="86" y="25" width="84" height="22" params="131089" style="1" name="btn_cmd_2" caption="%24%7Bpet.command.2%7D" width_min="84" width_max="84"/>
+                <button x="0" y="50" width="84" height="22" params="131089" style="1" name="btn_cmd_3" caption="%24%7Bpet.command.3%7D" width_min="84" width_max="84"/>
+                <button x="86" y="50" width="84" height="22" params="131089" style="1" name="btn_cmd_4" caption="%24%7Bpet.command.4%7D" width_min="84" width_max="84"/>
+                <button x="86" y="75" width="84" height="22" params="131089" style="1" name="btn_cmd_5" caption="%24%7Bpet.command.5%7D" width_min="84" width_max="84"/>
+                <button x="0" y="100" width="84" height="22" params="131089" style="1" name="btn_cmd_6" caption="%24%7Bpet.command.6%7D" width_min="84" width_max="84"/>
+                <button x="86" y="100" width="84" height="22" params="131089" style="1" name="btn_cmd_7" caption="%24%7Bpet.command.7%7D" width_min="84" width_max="84"/>
+                <button x="0" y="125" width="84" height="22" params="131089" style="1" name="btn_cmd_8" caption="%24%7Bpet.command.8%7D" width_min="84" width_max="84"/>
+                <button x="86" y="125" width="84" height="22" params="131089" style="1" name="btn_cmd_9" caption="%24%7Bpet.command.9%7D" width_min="84" width_max="84"/>
+                <button x="0" y="150" width="84" height="22" params="131089" style="1" name="btn_cmd_10" caption="%24%7Bpet.command.10%7D" width_min="84" width_max="84"/>
+                <button x="86" y="150" width="84" height="22" params="131089" style="1" name="btn_cmd_11" caption="%24%7Bpet.command.11%7D" width_min="84" width_max="84"/>
+                <button x="0" y="175" width="84" height="22" params="131089" style="1" name="btn_cmd_12" caption="%24%7Bpet.command.12%7D" width_min="84" width_max="84"/>
+                <button x="86" y="175" width="84" height="22" params="131089" style="1" name="btn_cmd_13" caption="%24%7Bpet.command.13%7D" width_min="84" width_max="84"/>
+                <button x="0" y="200" width="84" height="22" params="131089" style="1" name="btn_cmd_14" caption="%24%7Bpet.command.14%7D" width_min="84" width_max="84"/>
+                <button x="86" y="200" width="84" height="22" params="131089" style="1" name="btn_cmd_15" caption="%24%7Bpet.command.15%7D" width_min="84" width_max="84"/>
+                <button x="0" y="225" width="170" height="22" params="131089" style="1" name="btn_cmd_16" caption="%24%7Bpet.command.16%7D" width_min="170" width_max="170"/>
+                <button x="0" y="75" width="84" height="22" params="131089" style="1" name="btn_cmd_17" caption="%24%7Bpet.command.17%7D" width_min="84" width_max="84"/>
+              </children>
+            </container>
+            <text x="39" y="308" width="100" height="13" params="786449" style="0" name="description_link" caption="%24%7Bwidgets.pet.commands.info.link%7D" color="0x4b4b4b" background="true">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

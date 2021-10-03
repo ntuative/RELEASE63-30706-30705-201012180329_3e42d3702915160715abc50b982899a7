@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="registration" width="20" height="20" version="0.0">
+  <window>
+    <container x="1" y="0" width="257" height="352" params="0" style="0" color="0xff000000" background="true">
+      <children>
+        <border x="4" y="4" width="249" height="204" params="16" style="1">
+          <children>
+            <text x="8" y="9" width="234" height="32" params="16" style="0" caption="Details">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="24" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+              </variables>
+            </text>
+            <text x="2" y="39" width="243" height="56" params="16" style="0" caption="Please%20provide%20a%20few%20details%20so%20we%20can%20send%20you%20the%20keys%20for%20your%20room">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="margin_left" value="10" type="int"/>
+                <var key="margin_top" value="10" type="int"/>
+                <var key="margin_right" value="10" type="int"/>
+                <var key="margin_bottom" value="10" type="int"/>
+              </variables>
+            </text>
+            <text x="3" y="83" width="239" height="24" params="16" style="0" caption="Email*">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="margin_left" value="10" type="int"/>
+                <var key="margin_right" value="10" type="int"/>
+              </variables>
+            </text>
+            <input x="12" y="103" width="228" height="21" params="1" style="0" name="registration_email_address" background="true">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </input>
+            <text x="3" y="141" width="240" height="18" params="16" style="0" caption="New%20password*">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="margin_left" value="10" type="int"/>
+              </variables>
+            </text>
+            <password x="12" y="161" width="228" height="21" params="1" style="0" name="registration_new_password" background="true">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="display_as_password" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </password>
+            <text x="12" y="125" width="228" height="20" params="16" style="0" name="registration-email-address-error" color="0xDA5A4C">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xDA5A4C" type="hex"/>
+              </variables>
+            </text>
+            <text x="12" y="184" width="228" height="20" params="16" style="0" name="registration-new-password-error" color="0xDA5A4C">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xDA5A4C" type="hex"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+        <checkbox x="17" y="233" width="18" height="20" params="17" style="0" name="registration_merketing_checkbox"/>
+        <text x="36" y="212" width="217" height="22" params="16" style="0" caption="I%20have%20read%20and%20agree%20to%20the%20terms%20of%20use">
+          <variables>
+            <var key="font_face" value="Times New Roman" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+          </variables>
+        </text>
+        <checkbox x="17" y="213" width="16" height="17" params="17" style="0" name="registration_terms_checkbox"/>
+        <text x="35" y="231" width="213" height="22" params="16" style="0" caption="Send%20me%20marketing%20emails">
+          <variables>
+            <var key="font_face" value="Times New Roman" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+          </variables>
+        </text>
+        <container_button x="7" y="259" width="243" height="82" params="17" style="0" name="registration_submit_button" color="0xee00">
+          <children>
+            <text x="67" y="27" width="130" height="31" params="3932176" style="0" caption="Send%20Key">
+              <variables>
+                <var key="font_face" value="Times New Roman" type="String"/>
+                <var key="font_size" value="24" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container_button>
+      </children>
+    </container>
+  </window>
+</layout>
